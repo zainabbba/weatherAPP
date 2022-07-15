@@ -1,0 +1,83 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo APP</title>
+    <!-- Load Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-8 col-lg-6 col-xl-4">
+
+                    <h3 class="mb-4 pb-2 fw-normal"> <br> Weather Journal App<br> Check the weather forecast </h3>
+                    <label>Enter Zipcode here</label>
+                    <div class="input-group rounded mb-3">
+                        <input type="search" class="form-control rounded" id="zip" placeholder="Zip" aria-label="Search"
+                            aria-describedby="search-addon" />
+                        <div id="demo"></div>
+                        <br><br>
+
+                    </div>
+
+                    <div>
+                        <label> How are you feeling today?</label>
+                        <input type="text" class="form-control rounded" id="felling" />
+                    </div>
+                    <!-- <div class="mb-4 pb-2 check">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1" checked />
+                  <label class="form-check-label" for="inlineRadio1">Celsius</label>
+                </div> -->
+
+                    <div class="generate">
+                        <a href="#!" type="button" id="submit">
+                            <span class="input-group-text border-0 fw-bold" id="search-addon">
+                                Genreate!
+                            </span>
+                        </a>
+
+                    </div>
+
+                    <div class="contenmain">
+                        <p id="temp"> </p>
+                        <p id="content"> </p>
+                        <p id="date"></p>
+
+                    </div>
+                    <!-- <div class="card shadow-0 border">
+                <div class="card-body p-4">
+      
+                  <h4 class="mb-1 sfw-normal">New York, US</h4>
+                  <p class="mb-2">Current temperature: <strong>5.42°C</strong></p>
+                  <p>Feels like: <strong>4.37°C</strong></p>
+                  <p>Max: <strong>6.11°C</strong>, Min: <strong>3.89°C</strong></p>
+      
+                  <div class="d-flex flex-row align-items-center">
+                    <p class="mb-0 me-4">Scattered Clouds</p>
+                    <i class="fas fa-cloud fa-3x" style="color: #eee;"></i>
+                  </div>
+      
+                </div>
+              </div> -->
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
